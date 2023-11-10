@@ -5,7 +5,6 @@ public class V1_Q3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a binary number: ");
         String binary = sc.next();
-        int sum = 0, current = 0;
 
         //check whether it is a binary number
         for (int i = 0; i < binary.length(); i++) {
